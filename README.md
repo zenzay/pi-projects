@@ -1,4 +1,4 @@
 # pi-projects
 Raspberry Pi projects
 
-This repository contains some of my Raspberry Pi projects. In different stage of completion.
+This repository will soon contain some of my Raspberry Pi projects. In different stage of completion.
