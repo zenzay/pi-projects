@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=5.0, minimum-scale=0.1"/>
+		<title>HOST</title>
+		<style>
+			body { background-color: #000000; }
+			.view { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); overflow: hidden;}
+			#stream {
+				position: relative;
+				left: 0;
+				top: 0;
+				z-index: 1;
+			}
+		</style>
+	</head>
+	<body">
+		<div class="view">
+			<img src='stream.mjpg' id="stream" alt='stream' />
+			<div id='reticule'></div>
+		</div>
+	</body>
+</html>
